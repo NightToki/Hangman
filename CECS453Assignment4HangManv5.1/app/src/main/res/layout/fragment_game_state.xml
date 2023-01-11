@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lab05.GameStateFragment"
+
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/wrapCenterWeight1">
+
+        <TextView style="@style/textStyle"
+            android:id="@+id/state_of_game"/>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/wrapCenterWeight1">
+
+        <EditText
+            style="@style/editTextStyle"
+            android:id="@+id/letter"
+            android:imeOptions="actionDone"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

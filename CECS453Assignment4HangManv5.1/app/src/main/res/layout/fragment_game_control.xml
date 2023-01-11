@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="@color/game_control_background"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.lab05.GameControlFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <LinearLayout style="@style/wrapCenterWeight1"/>
+
+
+    <LinearLayout style="@style/wrapCenterWeight1">
+
+        <TextView style="@style/textStyle" android:id="@+id/status"/>
+
+    </LinearLayout>
+
+</LinearLayout>
